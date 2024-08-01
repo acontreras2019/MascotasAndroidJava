@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Pets</string>
+    <string name="servicio_estado">"State Service: "</string>
+    <string name="conteo">"Count: "</string>
+    <string name="lblpropietario">"Owner: "</string>
+    <string name="lblfechaAdopcion">Adop Date:</string>
+    <string name="lbltipo">"Pet Type: "</string>
+    <string name="lblvacunado">"Vaccinated: "</string>
+    <string name="channel_description">New Pets Channel</string>
+    <string name="channel_name">DAM Channel</string>
+    <string name="eye_desc_string">eye_desc_string</string>
+    <string name="lbleventosCount">"Events: "</string>
+    <string name="lblEventProcesados">" Processed:"</string>
+    <string name="servicio_iniciado">Started Service</string>
+    <string name="servicio_detenido">Stopped Service</string>
+    <string name="eventos_pendientes">Pending events:</string>
+    <string name="events">"Events: "</string>
+    <string name="procesados">" Processed: "</string>
+    <string name="servicio_de_mascotas_detenido">Pet Service Stopped</string>
+</resources>

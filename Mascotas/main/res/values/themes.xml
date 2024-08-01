@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Mascotas" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Mascotas" parent="Base.Theme.Mascotas" />
+    <style name="Theme.Transparent" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="SwitchStyle">
+        <!-- Color del botón (thumb) cuando está deshabilitado -->
+        <item name="android:thumbTint">#CCCCCC</item> <!-- Gris -->
+        <!-- Color del botón (thumb) cuando está habilitado -->
+        <!-- Color de la barra de fondo (track) cuando está deshabilitado -->
+        <item name="android:trackTint">#E0E0E0</item> <!-- Gris claro -->
+        <!-- Color de la barra de fondo (track) cuando está habilitado -->
+    </style>
+</resources>

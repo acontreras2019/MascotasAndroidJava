@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mascotas</string>
+    <string name="servicio_estado">"Servicio Estado: "</string>
+    <string name="conteo">"Conteo: "</string>
+    <string name="lblpropietario">"Propietario: "</string>
+    <string name="lblfechaAdopcion">Fecha Adop:</string>
+    <string name="lbltipo">"Tipo Mascota: "</string>
+    <string name="lblvacunado">"Vacunado: "</string>
+    <string name="channel_description">Canal Nuevas Mascotas</string>
+    <string name="channel_name">Canal DAM</string>
+    <string name="eye_desc_string">eye_desc_string</string>
+    <string name="lbleventosCount">"Eventos: "</string>
+    <string name="lblEventProcesados">" Procesados:"</string>
+    <string name="servicio_iniciado">Servicio Iniciado</string>
+    <string name="servicio_detenido">Servicio Pausado</string>
+    <string name="eventos_pendientes">Eventos pendientes:</string>
+    <string name="events">"Events: "</string>
+    <string name="procesados">" Procesados"</string>
+    <string name="servicio_de_mascotas_detenido">Servicio de mascotas detenido</string>
+</resources>

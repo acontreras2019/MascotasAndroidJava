@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView android:id="@+id/foto_s" android:layout_width="?android:attr/listPreferredItemHeight" android:layout_height="?android:attr/listPreferredItemHeight" android:layout_alignParentLeft="true" android:src="@drawable/otros"/>
+    <TextView android:id="@+id/txtnMascota" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/foto_s" android:layout_alignParentTop="true" android:textAppearance="?android:attr/textAppearanceMedium" android:singleLine="true"/>
+    <LinearLayout android:id="@+id/ly1" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_below="@id/txtnMascota" android:layout_toRightOf="@id/foto_s">
+        <LinearLayout android:id="@+id/ly2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:layout_gravity="start">
+            <TextView android:id="@+id/txtnPropietario" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="segunda_linea" android:textSize="13dp" android:textColor="@android:color/darker_gray"/>
+            <TextView android:id="@+id/txtFechaAdopcion" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="left" android:text="tercera_linea" android:textSize="13dp" android:textColor="@android:color/darker_gray"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/ly3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:layout_gravity="center">
+            <TextView android:id="@+id/txtTipo" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="segunda_linea" android:textSize="13dp" android:textColor="@android:color/darker_gray"/>
+            <TextView android:id="@+id/txtVacunado" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="segunda_linea" android:textSize="13dp" android:textColor="@android:color/darker_gray"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

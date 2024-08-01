@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Color del botón (thumb) cuando está deshabilitado -->
+    <item android:color="#CCCCCC" android:state_enabled="false" />
+    <!-- Color del botón (thumb) cuando está habilitado -->
+    <item android:color="#2196F3" android:state_checked="true" />
+    <!-- Color del botón (thumb) por defecto -->
+    <item android:color="#CCCCCC" />
+</selector>
